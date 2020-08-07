@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+mike = User.create(email: "123@gmail.com", password: "password", username: "Loaded", first_name: "Paul", last_name: "Paulson")
+
+post1 = Forum.create(title: "Best trucks for board dancing?", body: "I recently decided I wanted to trying dancing instead of downhill, but I use percision trucks currently. What trucks would you reccommend for carving/ dancing?")
+
+comment1 = Contribution.create(body: "Hey homie, Paris v2 are definitely the way to go. A lot of the Loaded Dancer team uses em, I love them myself.")
