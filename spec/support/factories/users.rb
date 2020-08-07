@@ -6,7 +6,7 @@ FactoryBot.define do
     #makes it unique! sequence
     password { 'password' }
     password_confirmation { 'password' }
-    username { 'username' }
+    sequence(:username) {|n| "user#{n}" }
     first_name { 'Gerald' }
     last_name { 'Donfheimer' }
   end
