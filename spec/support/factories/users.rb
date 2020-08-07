@@ -3,7 +3,6 @@ require 'factory_bot'
 FactoryBot.define do
   factory :user do
     sequence(:email) {|n| "user#{n}@example.com" }
-    #makes it unique! sequence
     password { 'password' }
     password_confirmation { 'password' }
     sequence(:username) {|n| "user#{n}" }
